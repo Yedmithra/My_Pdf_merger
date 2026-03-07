@@ -1,0 +1,7 @@
+# PDF Merger - Dépendances Python
+
+# Bibliothèque principale pour manipuler les PDFs
+pypdf>=4.0.0
+
+# Note: pypdf est le fork maintenu de PyPDF2
+# Il offre de meilleures performances et un support actif
