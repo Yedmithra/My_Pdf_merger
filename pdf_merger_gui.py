@@ -122,7 +122,7 @@ class PDFMergerGUI:
         ttk.Label(output_frame, text="Nom:").grid(row=0, column=0, padx=5)
         
         self.output_entry = ttk.Entry(output_frame)
-        self.output_entry.insert(0, "resultat.pdf")
+        self.output_entry.insert(0, "pdf_managed.pdf")
         self.output_entry.grid(row=0, column=1, sticky=(tk.W, tk.E), padx=5)
         
         ttk.Button(
